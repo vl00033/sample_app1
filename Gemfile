@@ -3,10 +3,12 @@ source 'http://rubygems.org'
 gem 'rails', '3.1.1'
 gem 'sqlite3'
 gem 'gravatar_image_tag'
+gem 'will_paginate', '3.0.2'
 
 group :development do
   gem 'rspec-rails', '2.6.1'
   gem 'annotate', :git => 'git://github.com/jeremyolliver/annotate_models.git', :branch => 'rake_compatibility'
+  gem 'faker', '0.3.1'
 end
 
 group :test do
